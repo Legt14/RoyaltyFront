@@ -1,13 +1,33 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            porcelain: "#edf1f2",
+            bluewood: "#2b3d4f",
+            bluewoodDark: '#354a5f',
+            silverSand: "#bdc3c7",
+          },
+        }
+      }
+    }
+  </script>
+  <title>Vite App</title>
+</head>
+
+<body>
+  <main id="app" class="bg-porcelain text-bluewood min-w-screen min-h-screen "></main>
+  <!-- <script type="module" src="/main.js"></script> -->
+  <script type="module" src="./forms/login/login.js"></script>
+
+</body>
+
 </html>
