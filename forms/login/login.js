@@ -18,7 +18,11 @@ app.innerHTML = `
         <input type="password" name="password" id="password" class="outline-none h-7 bg-bluewoodDark/40 border border-bluewood rounded-md px-2 w-64" >
       </label>
     </form>
+    <section class="flex gap-5 w-ful" >
+
+    <button class="font-bold w-20 h-8 border-2 border-bluewood rounded-md transition duration-300 delay-75 ease-in hover:scale-110 hover:bg-bluewood hover:text-porcelain " >recover password</button>
     <button type=button id='btnLogin' class="font-bold w-20 h-8 border-2 border-bluewood rounded-md transition duration-300 delay-75 ease-in hover:scale-110 hover:bg-bluewood hover:text-porcelain " >Login</button>
+    </section>
   </section>
   <section class="w-full min-h-full flex items-center justify-center " >
     <figure class="" >
